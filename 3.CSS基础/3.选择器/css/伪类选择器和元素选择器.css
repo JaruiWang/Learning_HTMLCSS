@@ -1,0 +1,36 @@
+/* *{
+    color:blue;
+} */
+/* 
+[href="https://www.baidu.com"]{
+    color: rgb(251, 255, 0);
+} */
+
+/* 鼠标悬停在a元素上时 */
+
+
+/* a:link{
+    color:blueviolet;
+}
+
+a:visited{
+    color: brown;
+}
+a:hover{
+    color:rgb(0, 255, 149);
+}
+
+/* 鼠标在a元素上按下时的 */
+/* a:active{
+    color: rgb(255, 136, 0);
+} */ 
+
+span::before{
+content: "《";
+color:red;
+}
+
+span::after{
+    content: "》";
+    color:red;
+    }

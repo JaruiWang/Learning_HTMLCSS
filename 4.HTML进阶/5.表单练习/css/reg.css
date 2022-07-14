@@ -1,0 +1,235 @@
+body{
+    line-height: 1.5em;
+}
+
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.form{
+    width: 980px;
+    margin: 1em auto;
+}
+
+.form a{
+    color: #00a1d6;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 38px;
+    /* font-weight: bold; */
+    border-bottom: 1px solid #ddd;
+    height: 15px;
+    margin-bottom: 60px;
+}
+
+.form h2 span{
+    background-color: #fff;
+    padding: 0 20px;
+}
+
+
+/* 表单区域 */
+.form-area{
+    width: 423px;
+    margin: 0 auto;
+}
+
+.form-area .form-item{
+    margin: 50px 0;
+}
+
+/* 统一的文本框样式 */
+input[type="text"],input[type="password"]{
+    border: 1px solid #dcdfe6;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+    color: #606266;
+    font-family:"PingFangSC-Medium";
+}
+
+input[type="text"]:hover{
+    border-color: #000;
+}
+
+input[type="password"]:hover{
+    /* border-color: #c0c4cc; */
+    border-color: #000;
+}
+
+input[type="text"]::placeholder,input[type="password"]::placeholder{
+    color: #ccc;
+}
+
+input[type="text"]:focus,input[type="password"]:focus{
+    border-color: #00a1d6;
+
+}
+
+.form-area .form-item  .select  .select-item {
+    float: left;
+    width: 140px;
+    height: 40px; 
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-right: none;
+    position: relative;
+   
+}
+
+.form-area .form-item  .select  .select-item ul{
+    display: none;
+
+    max-height: 256px;
+    position: absolute;
+    background-color:#fff;
+    z-index: 1;
+    top: 50px;
+    width: 100%;
+    border: 1px solid #dcdfe6;
+    box-sizing: border-box;
+    border-radius: 3px;
+    color: #606266;
+    padding: 10px 0;
+    font-size: 14px;
+
+    overflow-y: auto;
+}
+
+.form-area .form-item  .select  .select-item ul li{
+    height: 34px;
+    padding: 0 20px;
+    cursor: pointer;
+    line-height: 34px;
+}
+
+.form-area .form-item  .select  .select-item ul li.active{
+    color: #00a1d6;
+    font-weight: bold;
+}
+
+.form-area .form-item  .select  .select-item ul li:hover{
+    background-color: #f5f7fa;
+}
+
+.form-area .form-item  .select  .input{
+    float: left;
+    width: 283px;
+    /* height:40px; */
+}
+
+.form-area .form-item  .select  .input input{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius:0px;
+}
+
+
+
+.form-area .form-item  .select  .select-item .title{
+    /* background-color: #00a1d6; */
+    height:40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #909399;
+
+    cursor: pointer;
+
+}
+
+/* 统一设置按钮样式 */
+.form-area .form-item button{
+    height: 40px;
+    background-color: #00a1d6;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.form-area .form-item button:hover{
+    background-color: #33b4de;
+}
+
+.form-area .form-item{
+    position: relative;
+}
+.form-area .form-item  .btn-sncode{
+    width: 130px;
+    height: 36px;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+}
+
+.form-area .readme{
+    margin-top: -40px;
+    margin-bottom: -40px;
+    font-size: 12px;
+}
+
+.form-area .readme .checkbox{
+    display: inline-block;
+    width:14px;
+    height: 14px;
+    border: 1px solid #dcdfe6;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.form-area .readme input:checked+.checkbox{
+    border-color: #00a1d6;
+}
+
+.form-area .readme input:checked+.checkbox::after{
+    content: "";
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: #00a1d6;
+    border-radius: 1.5px;
+    margin-top: 2.7px;
+    margin-left: 2.7px;
+
+}
+
+.form-area .readme input {
+    display: none;
+}
+
+.form-area .form-item .fill{
+    width: 100%;
+}
+
+.form-area  .tip {
+    text-align: right;
+    margin-top: -40px;
+}
+
+
+.form-area .form-item .error{
+    position: absolute;
+    right: -250px;
+    top: 6px;
+    color: #f45d90;
+    font-size: 12px;
+    width: 240px;
+}
+
+.form-area .form-item button:disabled{
+    background-color: #f5f5f5;
+    color: rgba(0,0, 0,0.25);
+    border: 1px solid;
+    box-sizing: border-box;
+    cursor: not-allowed;
+}

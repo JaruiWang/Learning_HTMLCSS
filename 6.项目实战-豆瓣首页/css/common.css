@@ -1,0 +1,22 @@
+/* 多页面共享的CSS代码 */
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.douban_title7795 {
+    margin-bottom: 17px;
+}
+
+.douban_title7795 .douban_title7795_a1{
+    font-size: 14px;
+    color: #0bbb23;
+}
+
+.douban_title7795 .douban_title7795_a3{
+    font-size: 11px;
+    color:  #55788f;
+}

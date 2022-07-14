@@ -1,0 +1,15 @@
+div{
+    width: 200px;
+    height: 200px;
+    padding: 50px;
+    border: 2px solid;
+
+    box-sizing: border-box;
+
+    display: flex;
+    /* -webkit-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing: border-box;
+    -moz-box-sizing: border-box; */
+
+}

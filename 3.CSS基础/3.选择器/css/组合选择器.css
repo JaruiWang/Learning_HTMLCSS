@@ -1,0 +1,26 @@
+/* p{
+    text-indent: 2em;
+}
+
+p.red{
+    color: red;
+}
+
+.red li{
+    color: #008c8c;
+} */
+
+
+/* 用空格组合使用后代元素 */
+/* .abc .bcd{
+    color: blueviolet;
+}
+
+div p{
+    font-size: 3em;
+} */
+
+用 > 组合使用子元素
+.abc>.bcd{
+    color: rgb(69, 42, 165);
+}

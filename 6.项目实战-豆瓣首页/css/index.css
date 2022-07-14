@@ -1,0 +1,799 @@
+@import "reset.css";
+@import "common.css";
+
+@import "//at.alicdn.com/t/font_3322465_4y9ak6ijv48.css";
+
+
+.header0{
+    font-family: 'Times New Roman', Times, serif;
+    height: 35px;
+    background-color: rgb(236,246,235);
+    font-size: 17px;
+    padding-left: 10px;
+    
+}
+
+.header0 .Chinese{
+    color: rgb(80, 209, 101);
+    font-family:sans-serif; 
+    font-weight:800;
+    float: left;
+    height: 10px;
+    top: 2px;
+    padding-top: 7px;
+
+}
+
+.header0 .English{
+    display: inline-block;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    float: left;
+    padding-left: 5px;
+    padding-top: 11px;
+}
+
+.header0 .English span:nth-child(3n+1){
+    color: rgb(80, 209, 101);
+}
+
+.header0 .English span:nth-child(3n+2){
+    color: rgb(97, 165, 187);
+}
+
+.header0 .English span:nth-child(3n){
+    color: rgb(240, 207, 165);
+}
+
+.header1{
+    /* float: left; */
+    height: 87px;
+    background-color: #ffffff;
+    /* padding-right: 260px; */
+    overflow: hidden;
+    /* border: 1px solid; */
+    min-width: 1500px;
+    
+}
+
+.sousuo{
+    width: 375px;
+    float: left;
+    padding-left: 407px;
+    position: relative;
+
+}
+
+.sousuo h1{
+    float: left;
+    font-size: 23px;
+    color: rgb(80, 209, 101);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 34px;
+    padding-right: 29px;
+}
+
+.sousuo input{
+    float: left;
+    border: 1px solid;
+    margin-top: 31px;
+    height: 32px;
+    width: 268px;
+}
+
+.sousuo  .icon-sousuo{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.sousuo input::placeholder{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.fenlei{
+    width: 503px;
+    float: left;
+    padding-top: 26px;
+    padding-left: 190px;
+    /* border: 1px solid; */
+}
+
+.fenlei span{
+    float: left;
+    font-size: 21px;
+    padding: 10px 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+
+.fenlei .dushu{
+    color: #413a2d;
+}
+
+.fenlei .movie{
+    color: #2f7eb2;
+}
+
+.fenlei .music{
+    color: #ea9245;
+}
+
+.fenlei .tongcheng{
+    color: #c84d1e;
+}
+
+.fenlei .xiaozu{
+    color: #2e8e7d;
+}
+
+.fenlei .reading{
+    color: #46acb3;
+}
+
+.fenlei .FM{
+    color: #a5c6bb;
+}
+
+.fenlei .shijian{
+    color: #454545;
+}
+
+.fenlei .doupin{
+    color: #377736;
+}
+
+.denglu{
+    height: 302px;
+   
+    background-color: #ecf5ed;
+    background-image: url(../img/背景图1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 300px ;
+    position: relative;
+}
+
+.downloadapp{
+  
+    position: absolute;
+    top: 98px;
+    left: 952px;
+}
+
+.downloadapp h2{
+    font-size: 25px;
+
+    padding-bottom: 26px;
+}
+
+.downloadapp button{
+    float: left;
+    background-color: #0bbb23;
+    color: #ffffff;
+    width: 115px;
+    height: 31px;
+}
+
+.downloadapp .icon-erweima{
+    /* width: 30px;
+    height: 30px; */
+    float: left;
+    /* background-color: #454545; */
+    font-size: 30px;
+    line-height: 30px;
+    color: #0bbb23;
+    margin-left: 6px;
+    border: 1px solid;
+}
+.downloadapp button:hover{
+    cursor: pointer; 
+}
+.downloadapp .icon-erweima:hover{
+    cursor: pointer; 
+}
+
+.registerID{
+    height: 261px;
+    width: 300px;
+    /* background-color: #0bbb23; */
+    position: absolute;
+    padding-top: 35px;
+    left:1135px;
+
+}
+
+.registerID  .header02{
+    font-size: 14px;
+}
+
+.registerID  .header02 .messagelogin{
+    float: left;
+    width: 140px;
+    /* border: 1px solid; */
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 1px solid;
+}
+
+.registerID  .header02 .passwordlogin{
+    float: left;
+    width: 140px;
+    /* border: 1px solid; */
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    padding-bottom: 7px;
+    color: #99a29a;
+}
+
+
+.registerID  .readinformation{
+    font-size: 11px;
+    margin-top: 13px;
+}
+
+.registerID  .readinformation .xieyi{
+    color: #0bbb23;
+    cursor: pointer;
+ 
+}
+
+.registerID  .readinformation .Seriously_reading{
+    color:#959b94;
+}
+
+.registerID .qianzhui86{
+    border: 1px solid;
+    width: 51px;
+    box-sizing: content-box;
+    height: 32px;
+    padding: 1px 0;
+    border: 1px solid #e6e6e6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border-right: none;
+    cursor: pointer;
+
+}
+
+.registerID  .yanzhengma{
+    float: left;
+    width: 205px;
+    height: 32px;
+    border: 1px solid #e6e6e6;
+    padding-left: 10px;
+    padding-right: 0;
+    border-right: none;
+}
+
+.registerID  .yanzhengma_send{
+    margin-bottom: 10px;
+}
+
+.registerID  .buttonyanzhengma{
+    float: left;
+    background-color: #ffffff;
+    padding: 1px 0;
+    color: #0bbb23;
+    height: 32px;
+    width: 76px;
+    box-sizing: content-box;
+    border: 1px solid #e6e6e6;
+    border-left: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    /* margin-top: 5px; */
+
+    cursor: pointer;
+}
+
+.registerID  .tellNumber{
+    width: 230px;
+    height: 32px;
+    border: 1px solid #e6e6e6;
+    margin-top: 14px;
+    margin-bottom: 11px;
+    padding-left: 10px;
+}
+
+.registerID .denglibutton02{
+    margin-bottom: 13px;
+    border: 1px solid;
+    width: 281px;
+    height: 35px;
+    font-size: 15px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #43ae4f;
+}
+
+.registerID .erroryanzhengma {
+    width: 100%;
+    border-bottom: 1px solid #d8e1d9;
+    padding-bottom: 13px;
+
+}
+
+.registerID .erroryanzhengma span{
+    float: right;
+    color: #43ae4f;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.registerID .icon-weixin{
+    color: #68cd78;
+    font-size: 22px;
+    margin-left: 17px;
+}
+
+.registerID .icon-icon_xinlang-chunselogo{
+    color: #f1717b;
+    font-size: 22px;
+    margin-left: 17px;
+}
+
+.registerID .Thirdlogon{
+    font-size: 12px;
+    float: left;
+    margin-top: 9px;
+}
+
+.registerID .Thirdlogon span{
+    float: left;
+    padding-top: 3px;
+    color: #91958f;
+}
+.registerID .Thirdlogon i{
+    float: left;
+}
+
+.hotcontent{
+    height: 486px;
+    width: 939px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 31px;
+    margin-bottom: 65px;
+
+    box-sizing: border-box;
+}
+
+.hotcontent  .leftpic{
+    width: 350px;
+    height: 428px;
+    float: left;
+    margin-right: 28px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+}
+
+.hotcontent  .leftpic img{
+    display: block;
+    margin-bottom: 3px;
+    width: 171px;
+}
+
+.hotcontent  .leftpic  .redian{
+    padding-bottom: 17px;
+}
+
+.hotcontent  .leftpic  .redian .a1{
+    font-size: 13px;
+    color: #43ae4f;
+}
+
+.hotcontent  .leftpic  .redian .a3{
+    font-size: 12px;
+    color: #4d6678;
+}
+
+.hotcontent  .leftpic  .item{
+    float: left;
+    width: 172px;
+    font-size: 12px;
+    margin-bottom: 16px;
+}
+
+.hotcontent  .leftpic  .item a:visited{
+    color:blueviolet;
+}
+
+.hotcontent  .leftpic  .item a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+
+.hotcontent  .leftpic  .item:nth-child(2n){
+    margin-right: 4px;
+}
+
+
+.hotcontent  .leftpic .articlename{
+    color: #426b75;
+}
+
+.hotcontent  .leftpic  .picture_quanlity{
+    color: #898d91;
+}
+
+.middletext{
+    width: 275px;
+    height: 324px;
+    float: left;
+    margin-right: 28px;
+    margin-top: 32px;
+    box-sizing: border-box;
+    font-size: 12px;
+    
+}
+
+.middletext .articletitle{
+    color: #557b95;
+    margin-bottom: 14px;
+    line-height: 1.5em;
+}
+
+.middletext .articletitle a:visited{
+    color:blueviolet;
+}
+
+.middletext .articletitle a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.middletext .articletitle .author{
+    display: block;
+    color: #9a9a9a;
+}
+.middletext .articletitle .zhaiyao{
+    display: block;
+    color: #5f5b53;
+}
+
+.rightitem{
+    width: 255px;
+    height: 475px;
+    float: left;
+    margin-top: 11px;
+    box-sizing: border-box;
+}
+
+.rightitem .tupianAD img{
+    height: 125px;
+    margin-bottom: 19px;
+}
+
+.rightitem .rediantopic{
+    margin-bottom: 17px;
+}
+
+.rightitem .rediantopic .a1{
+    font-size: 14px;
+    color: #0bbb23;
+}
+
+.rightitem .rediantopic .a3{
+    font-size: 11px;
+    color:  #55788f;
+}
+
+.rightitem .itemtopic{
+    margin-bottom: 17px;
+    font-size: 13px;
+    color:  #55788f;
+}
+
+.rightitem .itemtopic a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+/* .rightitem .itemtopic a:visited{
+    color:blueviolet;
+} */
+
+.rightitem .itemtopic h2{
+    margin-bottom: 11px;
+}
+
+.rightitem .tupianAD  img{
+    width: 252px;
+}
+
+
+/* 豆瓣时间栏目的CSS */
+.doubanTime{
+    height: 634px;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding-top: 35px;
+}
+
+.doubanTime  .doubanTime2{
+    width: 890px;
+    height: 557px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.doubanTime  .doubanTime2 .timetitle{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    margin-right: 20px;
+}
+
+.doubanTime  .doubanTime2  .audioitemarea{
+    float: left;
+    width: 770px;
+    
+}
+
+.doubanTime2  .audioitemarea  .audioitem_item{
+    width: 100px;
+    height: 237px;
+    float: left;
+
+    box-sizing: content-box;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 62px;
+    margin-bottom: 30px;
+    
+}
+
+.doubanTime2  .audioitemarea  .audioitem_item_fifth{
+    margin-right: 0px;
+}
+
+.doubanTime2  .audioitemarea  .audioitem_item img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.doubanTime2  .audioitemarea  .audioitem_item .audiotxt{
+    line-height: 1.5em;
+    padding: 0 5px;
+    text-align: center;
+}
+.doubanTime2  .audioitemarea  .audioitem_item .audioclass{
+    margin-top: 12px;
+    text-align: center;
+    color: #9c9c9c;
+}
+
+
+
+/* 电影区域的CSS代码 */
+
+.moviearea{
+    width: 973px;
+    height: 562px;
+    /* border: 1px solid; */
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+}
+
+.moviearea  .movien_avigator{
+    color: #1d7db5;
+    float:left;
+    width: 68px;
+}
+
+.moviearea  .movien_avigator .title_movie{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.moviearea  .movien_avigator .title_movie:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.moviearea  .movien_avigator .solution_movie{
+    font-size: 13px;
+}
+
+
+.moviearea  .movien_avigator .solution_movie li{
+    margin-bottom: 14px;
+    padding: 2px 0;
+    
+}
+
+.moviearea  .movien_avigator .solution_movie a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.moviearea  .movien_avigator .solution_movie .newmovie img{
+    position: relative;
+    top: -5px;
+}
+
+
+.moviearea .movieitem{
+    width: 516px;
+    /* border: 1px solid; */
+    float: left;
+    margin-left: 50px;
+}
+
+.moviearea .movieitem .movieitem_picitem{
+    width: 102px;
+    box-sizing: content-box;
+    height: 226px;
+
+    float: left;
+    padding-left: 31px;
+    
+    margin-bottom: 20px;
+}
+
+.moviearea .movieitem .movieitem_picitem.movieitem_picitem_first{
+    padding-left: 14px;
+}
+
+.moviearea .movieitem .movieitem_picitem.movieitem_picitem_fifth{
+    padding-left: 14px;
+}
+
+.moviearea .movieitem .movieitem_picitem img{
+    width: 102px;
+    height: 145px;
+}
+
+
+
+.moviearea .movieitem .movieitem_picitem p{
+    font-size: 12px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+
+.moviearea .movieitem .movieitem_picitem .moviename{
+    overflow: hidden;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+    text-align: center;
+}
+
+.moviearea .movieitem .movieitem_picitem .moviename a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.moviearea .movieitem .movieitem_picitem  .score{
+    text-align: center;
+}
+
+.moviearea .movieitem .movieitem_picitem button{
+    width: 69px;
+    height: 24px;
+    background-color: #188bd7;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.moviearea  .movie_rightarea{
+    width: 272px;
+    float: left;
+    margin-left: 45px;
+}
+
+.moviearea  .movie_rightarea  .movieclass  .movieclass_itemname{
+    float: left;
+}
+
+.moviearea  .movie_rightarea  .movieclass  .movieclass_itemname li{
+    display: inline-block;
+    color: #3f6f86;
+    margin-bottom: 12px;
+    margin-right: 24px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.moviearea  .movie_rightarea  .movieclass  .movieclass_itemname li:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.moviearea  .movie_rightarea  .recenthot_movie{
+    margin-top: 25px;
+}
+
+.moviearea  .movie_rightarea .recenthot_movie .recenthot_movie_itemname li{
+    border-bottom: solid 1px #e4e9e8;
+    padding-bottom: 9px;
+    padding-top: 7px;
+    list-style-type: decimal;
+    font-size: 12px;
+    
+}
+
+.moviearea  .movie_rightarea .recenthot_movie .recenthot_movie_itemname li:first-child{
+    padding-top: 0px;
+}
+
+.moviearea  .movie_rightarea .recenthot_movie .recenthot_movie_itemname li a{
+    color: #3f6f86;
+    font-size: 12px;
+    cursor: pointer;
+    padding-left: 3px;
+}
+
+.moviearea  .movie_rightarea .recenthot_movie .recenthot_movie_itemname li a:hover {
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+
+/* 页脚区域的CSS */
+.pagefooter_area{
+    background-color: #F7F7F7;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.pagefooter_div{
+    width: 956px;
+    height: 150px;
+    border-top: 1px dashed #dbdbdb;
+    margin-top: 30px;
+  
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    color: #8b8a8a;
+    font-size: 12px;
+
+    line-height: 1.5em;
+   
+}
+
+.pagefooter_div a{
+    color: #46758f;
+}
+.pagefooter_div a:hover{
+    background-color: #2f7eb2;
+    color: #ffffff;
+}
+
+.pagefooter_area  .leftpagefooter{
+    width: 465px;
+    height: 134px;
+    
+    margin-top: 15px;
+    float: left;
+
+}
+
+.pagefooter_area  .rightpagefooter{
+    width: 415px;
+    height: 30px;
+    
+    margin-top: 15px;
+    float: right;
+
+}
+
+.pagefooter_area  .leftpagefooter img{
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
+
